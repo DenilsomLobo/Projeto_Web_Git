@@ -21,3 +21,9 @@ FileZilla => Programa para fazer comunicação com com site atravez do FTP
 Site para guardar ==> https://www.lipsum.com/ #("Site para pegar textos prontos para usar como exemplo.")
 
 site ==> https://www.templatemonster.com/ #("Melhores templates")
+
+Tem toda a documentação de Html => https://www.w3schools.com/
+
+Sites com banco de imagens => https://br.freepik.com/
+                           => https://color.adobe.com/pt/create/color-wheel # Te mostra a paleta de cores que você pode usar
+                           => https://www.dafont.com/pt/  # Site para pegar fontes 
