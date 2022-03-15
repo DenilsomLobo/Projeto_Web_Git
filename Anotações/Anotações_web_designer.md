@@ -27,3 +27,9 @@ Tem toda a documentação de Html => https://www.w3schools.com/
 Sites com banco de imagens => https://br.freepik.com/
                            => https://color.adobe.com/pt/create/color-wheel # Te mostra a paleta de cores que você pode usar
                            => https://www.dafont.com/pt/  # Site para pegar fontes 
+
+Olhar site sem CSS => usar ferramenta de extenção do google web developer 
+
+CSS => SASS => programação para alterar o visual do site, tecnologia importante para ser estudado.
+
+emmet abbreviation => Teclas de atalhos para construção de pagina (empresas exigem isso)
