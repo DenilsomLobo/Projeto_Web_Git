@@ -1,0 +1,31 @@
+#primeira {
+    background-color: rgb(248, 229, 53);
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+#segunda {
+    background-color: rgb(61, 197, 95);
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+#terceira {
+    background-color: rgb(61, 186, 197);
+    width: 30em;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+#quarta {
+    background-color: rgb(102, 61, 197);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: large;
+}
