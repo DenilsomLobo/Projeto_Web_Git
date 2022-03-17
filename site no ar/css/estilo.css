@@ -1,0 +1,34 @@
+/*titulo*/
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*Texto*/
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+/*Import do titulo */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Roboto:wght@100&display=swap');
+/*Import do texto*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,700;1,400&family=Roboto:wght@100&display=swap');
+
+.titulo_cor{
+    color:rgb(135, 61, 189);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+.texto{
+    color: rgb(122, 97, 145);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+}
+
+.subtitulo{
+    color:rgb(135, 61, 189);
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+}

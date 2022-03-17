@@ -1,0 +1,29 @@
+.titulo {
+    font-size: x-large;
+}
+
+/*Paddings*/
+.espacamento1 {
+    width: 50%;
+    height: 150px;
+    border: 1px solid red;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+
+    /*Margens*/
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.espacamento2 {
+    width: 50%;
+    height: 150px;
+    border: 1px solid green;
+    padding: 25px 30px 25px 30px;
+
+    /*Margens*/
+    margin: 0px auto;
+}

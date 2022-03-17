@@ -1,0 +1,10 @@
+/*Importando a fonte google*/
+/*o @import serve para sobrescrever a fonte original do css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.fonte{
+    color: crimson;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 2em;
+}

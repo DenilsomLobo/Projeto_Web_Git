@@ -33,3 +33,6 @@ Olhar site sem CSS => usar ferramenta de extenção do google web developer
 CSS => SASS => programação para alterar o visual do site, tecnologia importante para ser estudado.
 
 emmet abbreviation => Teclas de atalhos para construção de pagina (empresas exigem isso)
+
+site para ver cores hex => https://www.w3schools.com/colors/colors_picker.asp
+
