@@ -1,0 +1,30 @@
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: lightsalmon;
+}
+
+.verde {
+    color: green;
+}
+
+/*Paddings*/
+.espacamento1 {
+    width: 50%;
+    height: 200px;
+    border: 1px solid red;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+ 
+    /*Margens*/
+    margin: 0px auto;
+
+    /*Fontes*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    font-style: italic;
+    color: lightcoral;
+}
