@@ -1,0 +1,20 @@
+body {
+    background-color: #e9cd90;
+}
+
+#container {
+    margin: 0px auto;
+    background-color: #ffffff;
+    width: 600px;
+}
+p {
+    width: 250px;
+    text-align: center;
+}
+
+.relativo {
+    border: 1px solid red;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
