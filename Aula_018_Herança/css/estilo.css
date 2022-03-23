@@ -1,0 +1,22 @@
+body {
+    /*Todo corpo de texto da página vai ficar Amarelo
+    Apliquei a formatação no body e toda os
+    elemento dentro dele herdaram a formatação*/
+    color: #e0ae09;
+    font-size: small;
+
+
+    /*Padding não funciona*/
+    padding: 10px;
+
+    /*Nesta formatação, os elementos não herdam
+    o border do body, pois essa formatação é mais específica*/
+    border: 4px solid #027912;
+}
+
+.artigo {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    border: 1px solid tomato;
+}

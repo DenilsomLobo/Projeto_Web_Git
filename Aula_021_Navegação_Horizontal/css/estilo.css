@@ -1,0 +1,49 @@
+#bg-menu {
+    width: 100%;
+    height: 40px;
+    background-color: #8eb4e3;
+}
+
+#menu {
+    width: 600px;
+    margin: 0px auto;
+}
+
+#artigo {
+    width: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+ul {
+    /*Zera margem e espaçamento*/
+    margin: 0px; padding: 0px;
+
+    /*Tirar símbolo da lista*/
+    list-style-type: none;
+    background-color: #8eb4e3;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    width: 120px;
+    padding: 0 2.5em;
+
+    /*Centralizar conteudo*/
+    line-height: 2.5em;
+    text-align: center;
+    color: #ffffff;
+
+    /*Retia sublinado do link*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #304e74;
+}

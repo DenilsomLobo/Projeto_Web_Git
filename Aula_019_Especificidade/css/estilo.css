@@ -1,0 +1,19 @@
+/*Grau genérico*/
+* {
+    color: #c93609;
+}
+
+/*Grau específico*/
+p {
+    color: #1079be;
+}
+
+/*Grau muito especifico*/
+.pagina p {
+    color: #046b0d;
+}
+
+/*Grau Super específico, Importante*/
+p {
+    color: #9917b9 !important;
+}
