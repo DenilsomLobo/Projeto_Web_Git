@@ -1,0 +1,8 @@
+li > a {
+    color: blueviolet;
+    font-size: 2em;
+}
+
+a {
+    color: tomato;
+}

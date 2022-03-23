@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: rosybrown;
+    font-family: monospace;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 300px;
+}
