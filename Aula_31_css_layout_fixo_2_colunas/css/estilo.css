@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f3d276;
+}
+
+#conteiner {
+    width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#banner {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #b38404;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    padding-top: 20px 0px;
+    background: #cf7e05;
+}
+
+#rodape {
+    clear: both;
+    background: #b38404;
+}
+
+/*Navegação*/
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}

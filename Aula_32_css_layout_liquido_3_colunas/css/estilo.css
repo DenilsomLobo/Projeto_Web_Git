@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f3d276;
+}
+
+#container {
+    width: 720px; margin: 0 auto;
+    background: #ffffff;
+}
+
+#banner {
+    height: 100px; line-height: 100px; text-align: center;
+    background: #b38404;
+}
+
+#conteudo {
+    width: 520px; float: right;
+}
+
+#conteudo-a {
+    width: 320px; float: left; padding: 5px;
+}
+
+#conteudo-b {
+    width: 180px; height: 180px; float: right; background: #aaa8a2;
+    padding: 5px;
+}
+
+#navegacao {
+    width: 180px; height: 190px; float: left;
+    padding-top: 20px 0px;
+    background: #cf7e05;
+}
+
+#rodape {
+    clear: both; background: #b38404; height: 50px;
+    line-height: 50px; text-align: center;
+}
+
+/*NAVEGAÇÃO*/
+#navegacao ul {
+    list-style-type: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
