@@ -1,0 +1,81 @@
+/*TAG's internas*/
+body {
+    background-color: #F2F2F0;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/*ID*/
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#banner {
+    width: 1200px;
+    clear: both;   
+}
+
+#galeria{
+    margin-left: 300px;
+}
+
+#coracao {
+    margin-left: 578px;
+}
+
+
+/*Navegação*/
+#navegacao {
+    width: 1200px;
+   
+}
+#navegacao ul {
+    list-style-type: none;
+}
+
+#navegacao ul li {
+    float: left;
+
+}
+
+#text1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #8C8C8C;
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 300px;
+}
+
+#text2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #8C8C8C;
+    font-weight: bold;
+    font-size: 2.8em;
+    margin-left: 400px;
+}
+
+#textimg {
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #BF7E04 ;
+
+}
+
+#navegacao ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    display: block;
+    width: 80px;
+    padding: 0 1.0em;
+    margin-left: 133px;
+    line-height: 2.5em;
+    text-align: center;
+    color: #BF7E04;
+    list-style-type: none;
+    text-decoration: none;
+}
+
