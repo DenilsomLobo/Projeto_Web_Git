@@ -1,0 +1,55 @@
+#caixa1 {
+    width: 250px; height: 250px;
+    padding: 10px; margin: 10px;
+    background: #4a8f22;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa2 {
+    width: 250px; height: 250px;
+    padding: 10px; margin: 10px;
+    background: #10718f;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa3 {
+    width: 250px; height: 250px;
+    padding: 10px; margin: 10px;
+    background: #8a979b;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#caixa4 {
+    width: 250px; height: 250px;
+    padding: 10px; margin: 10px;
+    background: #8a979b;
+    margin-right: 20px;
+    border-radius: 10px;
+    /*Sombra diretamente na DIV*/
+    box-shadow: 5px 5px 7px rgba(148, 145, 145, 0.6);
+    float: left;
+}
+
+#caixa1 h1 {
+    color: #ffffff;
+    /*3px é a distância*/
+    text-shadow: 3px 3px #000000;
+}
+
+#caixa2 h1 {
+    color: #ffffff;
+    /*0.3 é a opacidade*/
+    text-shadow: 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+#caixa3 h1 {
+    color: #ffffff;
+    /*3px é o blur*/
+    text-shadow: 5px 5px 3px rgb(0, 0, 0, 0.6);
+}

@@ -11,13 +11,28 @@
 #caixa2 {
     width: 300px;
     height: 300px;
-    background: url(../img/foto.png) no-repeat center;
+    /*Resolvendo problema do texto ficar transparente*/
+    background: 
+    linear-gradient(rgba(255, 255, 255, .5), 
+    rgba(255, 255, 255, .5)), 
+    url(../img/foto.png) no-repeat;
+    /*--------------------*/
     background-size: cover;
-    opacity: 0.7;
     float: left;
 }
 
 p.fonte {
     font-family: 'Franklin Gothic Medium';
-    
+    padding: 10px;
+    color: #000000;
+    font-size: 1em;
+    z-index: 1;
+}
+
+h1 {
+    background: rgb(97, 134, 156, 0.5);
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
 }

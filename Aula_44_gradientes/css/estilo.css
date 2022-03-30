@@ -1,0 +1,38 @@
+#caixa1 {
+    background: linear-gradient(45deg, #ecb2b2, #4e1818);
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+#caixa2 {
+    background: linear-gradient(#a1ce9f, #055810);
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#caixa3 {
+    background: radial-gradient(#cec99f, #e2af07);
+    width: 300px;
+    height: 300px;
+    clear: both;
+}
+
+p.fonte {
+    font-family: 'Franklin Gothic Medium';
+    padding: 10px;
+    color: #000000;
+    font-size: 1em;
+    opacity: 1;
+}
+
+h1 {
+    background: rgb(97, 134, 156, 0.5);
+    text-align: left;
+    padding: 5px;
+    color: #ffffff;
+}
