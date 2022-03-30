@@ -146,3 +146,6 @@ body {
     text-decoration: none;
 }
 
+#navegacao ul li a:hover {
+    color: #72088d;
+}

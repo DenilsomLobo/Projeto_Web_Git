@@ -1,0 +1,21 @@
+#caixa1 {
+    font-size: 14px;
+    width: 300px;
+    height: 200px;
+    background: #f38d07;
+    margin: 10px;
+    /*O padding soma ao tamanho da caixa*/
+    padding: 20px;
+}
+
+#caixa2 {
+    font-size: 14px;
+    width: 300px;
+    height: 200px;
+    background: #f38d07;
+    margin: 10px;
+    padding: 20px;
+
+    /*Incluido os valores de padding ao tamanho div*/
+    box-sizing: border-box;
+}
