@@ -24,7 +24,7 @@
     /*Colocar um delay para começar*/
     animation-delay: 3s;
     /*Repetir a execução da animação*/
-    animation-iteration-count: 2;
+    animation-iteration-count: 2; /*infinite deixa a animação infinita*/
     /*Indo e voltando com a animação alternate e reverse*/
     animation-direction: alternate;
     /*Toda animação em uma única linha

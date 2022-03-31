@@ -1,0 +1,29 @@
+#box {
+    width: 400px;
+    height: 200px;
+    background: rgb(235, 150, 54);
+
+    /*Transição na largura e altura*/
+    transition-property: width, height, border-radius;
+    /*Tempo da transição*/
+    transition-duration: 2s;
+    /*Tipo de transição*/
+    transition-timing-function: linear;
+    /*Tempo de espera*/
+    transition-delay: 1s;
+}
+
+/*Aplicar a transição com efeito hover*/
+#box:hover {
+    width: 300px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+p {
+    padding: 10px 20px;
+}
+
+h1 {
+    padding: 10px 20px 0px;
+}
