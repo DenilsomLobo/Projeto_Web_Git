@@ -1,0 +1,32 @@
+@keyframes animacao-box {
+
+    /*De: Fromatação inicial*/
+    form {
+        background: #dda304;
+        border-radius: 0px;
+    }
+
+    /*Para: formatação final*/
+    to {
+        background: #dd1d04;
+        border-radius: 300px;
+    }
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    background: #dda304;
+    /*Definimos qual será a animação*/
+    animation: animacao-box;
+    /*Definimos a duração da animaçõa*/
+    animation-duration: 3s;
+    /*Colocar um delay para começar*/
+    animation-delay: 3s;
+    /*Repetir a execução da animação*/
+    animation-iteration-count: 2;
+    /*Indo e voltando com a animação alternate e reverse*/
+    animation-direction: alternate;
+    /*Toda animação em uma única linha
+    animation: animacao-divisao 2s 2s 2 alternate;*/
+}

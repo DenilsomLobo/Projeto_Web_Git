@@ -1,0 +1,61 @@
+body, html {
+    margin: 0px;
+    font-family: sans-serif;
+    color: #777;
+
+    /*IMPORTANTE PARA O EFEITO PARALLAX*/
+    height: 100%;
+}
+
+.conteudo-principal {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: #111111;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.conteudo {
+    color: #777777;
+    background-color: #ffffff;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+h1, h2 {
+    color: #111111;
+    text-align: center;
+    padding: 20px;
+}
+
+/*EFEITO PARALLAX*/
+
+.box1, .box2, .box3 {
+    position: relative;
+    height: 100%;
+
+    /*Deixar a imagm menos opaca*/
+    opacity: 0.5;
+
+    background-repeat: no-repeat;
+
+    /*Cobrir toda a área do background*/
+    background-size: cover;
+
+    /*Produzindo o efeito parallax*/
+    background-attachment: fixed;
+}
+
+.box1 {
+    background-image: url(../img/foto1.jpg);
+}
+
+.box2 {
+    background-image: url(../img/foto2.jpg);
+}
+
+.box3 {
+    background-image: url(../img/foto3.png);
+}
