@@ -23,7 +23,7 @@ header {
     flex-direction: row;
 
     /*Definir a qubras no layout
-    nowrap - wrap - wrap-reverse*/
+    nowrap - wrap - wrap-reverse (muda quando redimenciona o browser)*/
     flex-wrap: nowrap;
 
     /*Definir justificaçãodo layout
