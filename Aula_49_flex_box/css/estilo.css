@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(226, 223, 223);
+    font-size: 2em;
+    margin: 0px auto;
+}
+
+#container section {
+    background: #f2f2f2;
+    height: 300px;
+    width: 80%;
+    margin: 0px auto;
+
+    /*Habilita o flex*/
+    display: flex;
+
+    /*Definir a direção dos meus elementos flex
+    row - row-reverse - column - column-reverse*/
+    flex-direction: row;
+
+    /*Definir a qubras no layout
+    nowrap - wrap - wrap-reverse*/
+    flex-wrap: nowrap;
+
+    /*Definir justificaçãodo layout
+    fex-start - fex-end - center - space-between
+    space-around - space-evenly*/
+    justify-content: space-around;
+
+    /*Definir alinhamento dos itens do layout
+    stretch - center - flex-start - flex-end*/
+    align-items: center;
+
+}
+
+section .produto {
+    width: 150px; height: 150px;
+    margin: 10px;
+    background: #d6cdad;
+    border: 1px solid #252424;
+}
