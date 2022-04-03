@@ -29,7 +29,7 @@ header {
     /*Definir justificaçãodo layout
     fex-start - fex-end - center - space-between
     space-around - space-evenly*/
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     /*Definir alinhamento dos itens do layout
     stretch - center - flex-start - flex-end*/

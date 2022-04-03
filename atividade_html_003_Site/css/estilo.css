@@ -1,0 +1,249 @@
+/*TAG*/
+
+body {
+    background-color: #F2CA99;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #110505;
+    text-shadow: 
+    -1px -1px 0px #D9583B, 
+    -1px 1px 0px #D9583B,                    
+     1px -1px 0px #D9583B,                  
+     1px 0px 0px #D9583B;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #110505;
+    font-size: large;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-color: #110505;
+    font-size: 2em;
+    margin: 0px auto;
+    margin-top: 25px;
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    height: 150px;    
+    background-color: #260101;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    padding: 10px;
+}
+footer h2 {    
+    color: #F2F1F0;
+}
+
+footer p {    
+    color: #F2F1F0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    display: inline-block;
+ }
+
+footer ul li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #F2F1F0;
+    padding: 10px 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+ }
+
+/*Class*/
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    background: #110505;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 180px;
+    float: left;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+
+
+}
+
+.s3_box {
+    width: 280px; height: 400px;
+    margin: 30px;
+    background-color: silver;
+}
+ .titulo_secao{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    text-align: center;
+    font-size: 2.5em;
+    color: #D9583B;
+    text-shadow: 
+    -1px -1px 0px black, 
+    -1px 1px 0px black,                    
+     1px -1px 0px black,                  
+     1px 0px 0px black;
+     margin-bottom: 65px;
+ }
+
+/*ID*/
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2CA99;
+    margin: 0px auto;
+
+}
+#secao_1 {
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 80px;  
+}
+
+#secao_1_circulo {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#secao_2{
+    width: 98%;
+    margin: 0px auto; 
+    clear: both;
+    margin-bottom: 80px;
+}
+
+#secao_2_container {
+    height: 500px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#secao_2_caixa_2 {
+    height: 500px;
+    width: 46%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8px;
+    
+}
+
+#secao_2_caixa_1 {
+    background: #110505;
+    height: 500px;
+    width: 46%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#box_txt_1 {
+    padding: 10px;
+    background-color: #F2CF66;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#box_txt_2 {
+    padding: 20px;
+    background-color: #F2CF66;
+    height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+#box_txt_3 {
+    padding: 10px;
+    background-color: #F2CF66;
+    height: 150px; 
+}
+
+#secao_3 {
+    width: 98%;
+    margin: 0px auto; 
+}
+
+#secao_3_container_box {
+    height: 400px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+
+
+/*Navegação*/
+nav {
+    width: 100%;
+    background-color: #380101;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+}
+ nav ul li {
+    display: inline-block;
+ }
+
+ nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+ }
+
+ a:hover {
+     color: #D97D48;
+ }
