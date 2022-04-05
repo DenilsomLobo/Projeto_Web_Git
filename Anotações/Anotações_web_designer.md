@@ -39,3 +39,5 @@ site para ver cores hex => https://www.w3schools.com/colors/colors_picker.asp
 alt 0149 => bullet comando para usar  
 
 pattern => Imagens de fundo para site
+
+Site para banner, logo entre outros => https://www.canva.com/pt_br/
