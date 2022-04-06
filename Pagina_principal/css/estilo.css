@@ -1,0 +1,33 @@
+* {
+    margin: 0px auto; padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(139, 138, 138);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
