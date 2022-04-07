@@ -19,8 +19,21 @@ header {
     align-items: center;
 }
 
+.banner {
+    width: 80%;
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
 nav ul {
     list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav ul li a {
